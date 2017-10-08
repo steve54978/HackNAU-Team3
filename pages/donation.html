@@ -39,10 +39,14 @@
               <a class="nav-link js-scroll-trigger" href="service.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="login.html">Signin/Logout</a>
+              <a class="nav-link js-scroll-trigger" href="login.html">Sign In</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="donation.html">Donations</a>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="account-creation.html">Create an Account</a>
+              </li>
+  
             </li>
           </ul>
         </div>
@@ -50,12 +54,13 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead" style="background-color: white;">
-    </header>
 
     <section id="contact">
-      <div class="container">
-        <h2 class="text-center color-h2">Log In</h2>
+        <h2 class="color-h2" style="padding-top:80px; text-align: center;">Donations</h2>
+        <h6 class="color-h2" style="padding-top:10px; text-align: center; padding-top:30px;">Why should you donate?</h4>
+        <h6 class="" style="padding-top:10px; text-align: center; text-transform: lowercase; padding-top:15px; font-weight: 200;">Your donations go to different disaster victims, providing them with shelter, clothes, food,<br> and any other form of care the may need they can get back on their feet.</h4>
+            
+      <div class="container" style="padding-top:40px;">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -63,20 +68,15 @@
             <form name="sentMessage" id="contactForm" novalidate>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
-                  <label>Username</label>
-                  <input class="form-control" id="name" type="text" placeholder="Username" required data-validation-required-message="Please enter your name.">
+                  <label>Donation Amount</label>
+                  <input class="form-control" id="name" type="text" placeholder="Donation Amount i.e. $10.00" required data-validation-required-message="Please enter your name.">
                   <p class="help-block text-danger"></p>
                 </div>
-                <div class="form-group floating-label-form-group controls">
-                    <label>Password</label>
-                    <input class="form-control" id="name" type="password" placeholder="Password" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>  
-              </div>
+              </div>              
               <br>
               <div id="success"></div>
               <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enter</button>
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Donate</button>
               </div>
             </form>
           </div>
